@@ -27,7 +27,7 @@ vim.opt.smartcase = true
 --vim.opt.scrolloff = 8
 --vim.opt.signcolumn = "yes"
 
-vim.opt.backspace = {"start", "eol", "indent"}
+vim.opt.backspace = { "start", "eol", "indent" }
 
 vim.opt.splitright = true
 vim.opt.splitbelow = true
