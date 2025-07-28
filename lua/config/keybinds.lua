@@ -45,3 +45,5 @@ map("n", "<leader>wl", "<C-w>l", { desc = "Jump to right split" })
 map("n", "<leader>wo", "<C-w>o", { desc = "Close all other windows" })
 
 vim.keymap.set("n", "<leader>nd", "<cmd>NoiceDismiss<CR>", { desc = "Dismiss Noice Message" })
+
+vim.keymap.set("n", "-", "<CMD>Oil<CR>", { desc = "Open parent directory in Oil" })
