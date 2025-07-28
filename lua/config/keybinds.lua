@@ -43,3 +43,5 @@ map("n", "<leader>wk", "<C-w>k", { desc = "Jump to above split" })
 map("n", "<leader>wh", "<C-w>h", { desc = "Jump to left split" })
 map("n", "<leader>wl", "<C-w>l", { desc = "Jump to right split" })
 map("n", "<leader>wo", "<C-w>o", { desc = "Close all other windows" })
+
+vim.keymap.set("n", "<leader>nd", "<cmd>NoiceDismiss<CR>", { desc = "Dismiss Noice Message" })
