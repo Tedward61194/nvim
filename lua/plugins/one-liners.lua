@@ -13,4 +13,9 @@ return {
         opts = { smear_insert_mode = false },
     },
 
+    {
+        "windwp/nvim-autopairs",
+        event = "InsertEnter",
+        config = true,
+    }
 }
