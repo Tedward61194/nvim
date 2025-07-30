@@ -18,6 +18,7 @@ return {
     config = function()
         local autoformat_filetypes = {
             "lua",
+            "rust",
         }
         -- Create a keymap for vim.lsp.buf.implementation
         vim.api.nvim_create_autocmd('LspAttach', {
@@ -104,6 +105,9 @@ return {
                 "lua_ls",
                 "ts_ls",
                 "eslint",
+                "omnisharp",
+                "bicep",
+                --netcoredbg - dosn't seem to work with auto install, but make srue to install it manually
             },
             handlers = {
                 -- this first function is the "default handler"
@@ -250,5 +254,9 @@ return {
                 end, { 'i', 's' }),
             }),
         })
+
+        --omnisharp languageserver
+        vim.lsp.enable("omnisharp")
+        --vim.lsp.enable("rust_analyzer") - I think this is handled by rust tools
     end
 }

@@ -36,6 +36,7 @@ return {
                     "astro",
                     "rust",
                     "c_sharp",
+                    "bicep"
                 },
                 -- auto install above language parsers
                 auto_install = false,
