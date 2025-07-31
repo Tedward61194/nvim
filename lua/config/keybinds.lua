@@ -34,10 +34,10 @@ vim.api.nvim_create_autocmd("TextYankPost", {
 })
 
 --split management
-map("n", "<leader>sv", "<C-w>v", { desc = "Split window vertically" })     -- split window vertically
-map("n", "<leader>sh", "<C-w>s", { desc = "Split window horizontally" })   -- split window horizontally
-map("n", "<leader>se", "<C-w>=", { desc = "Make splits equal size" })      -- make split windows equal width & height
-map("n", "<leader>sx", "<cmd>close<CR>", { desc = "Close current split" }) -- close current split window
+map("n", "<leader>wv", "<C-w>v", { desc = "Split window vertically" })     -- split window vertically
+map("n", "<leader>ws", "<C-w>s", { desc = "Split window horizontally" })   -- split window horizontally
+map("n", "<leader>we", "<C-w>=", { desc = "Make splits equal size" })      -- make split windows equal width & height
+map("n", "<leader>wx", "<cmd>close<CR>", { desc = "Close current split" }) -- close current split window
 map("n", "<leader>wj", "<C-w>j", { desc = "Jump to lower split" })
 map("n", "<leader>wk", "<C-w>k", { desc = "Jump to above split" })
 map("n", "<leader>wh", "<C-w>h", { desc = "Jump to left split" })
